@@ -9,7 +9,7 @@ public class HelloRestController {
 	
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hello World";
+		return "idea says hi";
 	}
 
 	@GetMapping("/abuse")
